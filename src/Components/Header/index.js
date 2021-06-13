@@ -11,10 +11,8 @@ function Header({ selected, setSelected, titles }) {
   return (
     <View
       style={{
-        flex: 1,
         flexDirection: 'row',
-        width: 800,
-        backgroundColor: 'white',
+        width: '80%',
         borderBottomColor: '#FF0000',
         borderBottomWidth: 1,
         alignContent: 'center',
@@ -66,6 +64,7 @@ function MenuItem(index, selected, setSelected, title) {
 const styles = StyleSheet.create({
   logoContainer: {
     flex: 1,
+    marginRight:70,
   },
   buttonContainer: { marginTop: 25, marginLeft: 40 },
 });
